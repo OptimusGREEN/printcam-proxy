@@ -9,7 +9,7 @@ import time
 from http.server import BaseHTTPRequestHandler
 from socketserver import ThreadingMixIn, TCPServer
 
-RTSP_URL = os.environ.get("RTSP_URL", "rtsp://10.79.80.238:554/unicast")
+RTSP_URL = os.environ.get("RTSP_URL", "rtsp://10.0.0.238:554/unicast")
 PORT = int(os.environ.get("PORT", "8889"))
 FPS = int(os.environ.get("FPS", "15"))
 QUALITY = int(os.environ.get("QUALITY", "5"))
