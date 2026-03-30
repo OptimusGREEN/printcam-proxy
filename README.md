@@ -18,7 +18,7 @@ Set via environment variables:
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `RTSP_URL` | `rtsp://10.79.80.238:554/unicast` | Source RTSP stream URL |
+| `RTSP_URL` | `rtsp://10.0.0.238:554/unicast` | Source RTSP stream URL |
 | `PORT` | `8889` | HTTP port to listen on |
 | `FPS` | `15` | Output frame rate |
 | `QUALITY` | `5` | JPEG quality (2–31, lower = better) |
