@@ -4,3 +4,8 @@ services:
     container_name: printcam-proxy
     restart: unless-stopped
     network_mode: host
+    environment:
+      - RTSP_URL=rtsp://10.79.80.238:554/unicast
+      - PORT=8889
+      - FPS=15
+      - QUALITY=5
