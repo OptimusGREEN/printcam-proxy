@@ -1,0 +1,6 @@
+services:
+  printcam-proxy:
+    image: ghcr.io/optimusgreen/printcam-proxy:latest
+    container_name: printcam-proxy
+    restart: unless-stopped
+    network_mode: host
